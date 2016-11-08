@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B29B4769631B94A71D5B88E /* Pods_devslopes_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A08101E521FAE1928044B3 /* Pods_devslopes_social.framework */; };
-		8C614E051DC824A700C315A5 /* GoogleService-Info (3).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C614E041DC824A700C315A5 /* GoogleService-Info (3).plist */; };
+		8C614E051DC824A700C315A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C614E041DC824A700C315A5 /* GoogleService-Info.plist */; };
 		8C6D68121DC8A48900CA0BB2 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D68111DC8A48900CA0BB2 /* FancyView.swift */; };
 		8C6D68151DC8A51E00CA0BB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D68141DC8A51E00CA0BB2 /* Constants.swift */; };
 		8C6D68171DC8D33E00CA0BB2 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D68161DC8D33E00CA0BB2 /* RoundBtn.swift */; };
@@ -19,13 +19,18 @@
 		8C828E2D1DC6302F006D365B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C828E2B1DC6302F006D365B /* Main.storyboard */; };
 		8C828E2F1DC6302F006D365B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C828E2E1DC6302F006D365B /* Assets.xcassets */; };
 		8C828E321DC6302F006D365B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C828E301DC6302F006D365B /* LaunchScreen.storyboard */; };
+		8CFF48041DD0385C0009AFC8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFF48001DD0385C0009AFC8 /* Bolts.framework */; };
+		8CFF48051DD0385C0009AFC8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFF48011DD0385C0009AFC8 /* FBSDKCoreKit.framework */; };
+		8CFF48061DD0385C0009AFC8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFF48021DD0385C0009AFC8 /* FBSDKLoginKit.framework */; };
+		8CFF48071DD0385C0009AFC8 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFF48031DD0385C0009AFC8 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D902DAE6A9B615B07D7BA8F /* Pods-devslopes-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.release.xcconfig"; sourceTree = "<group>"; };
 		50CED92D45D93C600FCB5EFF /* Pods-devslopes-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.debug.xcconfig"; sourceTree = "<group>"; };
 		78A08101E521FAE1928044B3 /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C614E041DC824A700C315A5 /* GoogleService-Info (3).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (3).plist"; sourceTree = "<group>"; };
+		8C288C5E1DD167580056F9DB /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
+		8C614E041DC824A700C315A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C6D68111DC8A48900CA0BB2 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		8C6D68141DC8A51E00CA0BB2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8C6D68161DC8D33E00CA0BB2 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -38,6 +43,11 @@
 		8C828E2E1DC6302F006D365B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C828E311DC6302F006D365B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C828E331DC6302F006D365B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFF47FF1DD032B80009AFC8 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		8CFF48001DD0385C0009AFC8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8CFF48011DD0385C0009AFC8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8CFF48021DD0385C0009AFC8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8CFF48031DD0385C0009AFC8 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +56,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B29B4769631B94A71D5B88E /* Pods_devslopes_social.framework in Frameworks */,
+				8CFF48051DD0385C0009AFC8 /* FBSDKCoreKit.framework in Frameworks */,
+				8CFF48071DD0385C0009AFC8 /* FBSDKShareKit.framework in Frameworks */,
+				8CFF48061DD0385C0009AFC8 /* FBSDKLoginKit.framework in Frameworks */,
+				8CFF48041DD0385C0009AFC8 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +69,10 @@
 		3BE32255F70750E6AC6F9678 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CFF48001DD0385C0009AFC8 /* Bolts.framework */,
+				8CFF48011DD0385C0009AFC8 /* FBSDKCoreKit.framework */,
+				8CFF48021DD0385C0009AFC8 /* FBSDKLoginKit.framework */,
+				8CFF48031DD0385C0009AFC8 /* FBSDKShareKit.framework */,
 				78A08101E521FAE1928044B3 /* Pods_devslopes_social.framework */,
 			);
 			name = Frameworks;
@@ -124,6 +142,7 @@
 		8C828E261DC6302F006D365B /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				8C288C5E1DD167580056F9DB /* devslopes-social.entitlements */,
 				8C6D68131DC8A50600CA0BB2 /* Uti */,
 				8C6D68101DC8286500CA0BB2 /* View */,
 				8C6D680F1DC8286000CA0BB2 /* Model */,
@@ -133,7 +152,8 @@
 				8C828E2E1DC6302F006D365B /* Assets.xcassets */,
 				8C828E301DC6302F006D365B /* LaunchScreen.storyboard */,
 				8C828E331DC6302F006D365B /* Info.plist */,
-				8C614E041DC824A700C315A5 /* GoogleService-Info (3).plist */,
+				8C614E041DC824A700C315A5 /* GoogleService-Info.plist */,
+				8CFF47FF1DD032B80009AFC8 /* BridgingHeader.h */,
 			);
 			path = "devslopes-social";
 			sourceTree = "<group>";
@@ -173,7 +193,13 @@
 				TargetAttributes = {
 					8C828E231DC6302F006D365B = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EJR99E6ZWY;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -201,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C828E321DC6302F006D365B /* LaunchScreen.storyboard in Resources */,
-				8C614E051DC824A700C315A5 /* GoogleService-Info (3).plist in Resources */,
+				8C614E051DC824A700C315A5 /* GoogleService-Info.plist in Resources */,
 				8C828E2F1DC6302F006D365B /* Assets.xcassets in Resources */,
 				8C828E2D1DC6302F006D365B /* Main.storyboard in Resources */,
 			);
@@ -392,8 +418,17 @@
 			baseConfigurationReference = 50CED92D45D93C600FCB5EFF /* Pods-devslopes-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
+				DEVELOPMENT_TEAM = EJR99E6ZWY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lynx.devslopes-social";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -405,8 +440,17 @@
 			baseConfigurationReference = 4D902DAE6A9B615B07D7BA8F /* Pods-devslopes-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
+				DEVELOPMENT_TEAM = EJR99E6ZWY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lynx.devslopes-social";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
